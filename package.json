@@ -1,0 +1,17 @@
+{
+  "name": "adaptive-jitter-buffer",
+  "version": "1.0.0",
+  "description": "纯决策的自适应语音抖动缓冲库：只输出每个播放 tick 的动作，不负责编码与播放",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
